@@ -66,6 +66,16 @@ body {
     min-height: 100%;
 }
 
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    white-space: nowrap;
+    overflow: hidden;
+    clip: rect(0 0 0 0); 
+    border: 0;
+}
+
 main {
     padding: 1.5rem;
 }
